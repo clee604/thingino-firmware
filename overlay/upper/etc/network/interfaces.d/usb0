@@ -1,0 +1,4 @@
+auto usb0
+iface usb0 inet dhcp
+pre-up usb-role -m device
+pre-up ifconfig usb0 hw ether f2:9e:9d:5b:50:5a
